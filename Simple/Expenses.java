@@ -11,7 +11,7 @@ public class Expenses {
         int transport = scan.nextInt();
         System.out.print("Savings: ");
         int saving = scan.nextInt();
-
+        scan.close();
         int monthlyTotal = (meals + transport + saving) * 30;
         System.out.println("Monthly Expenses: RM" + monthlyTotal);
     }
